@@ -1,0 +1,2 @@
+usrname = samson
+pword = Sam@12345
