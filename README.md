@@ -12,6 +12,7 @@ The **User Management System API** is a RESTful API built with Django and Django
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
+  - [Accessing the Application](#accessing_the_application)
 - [API Endpoints](#api-endpoints)
   - [User Management](#user-management)
 - [Testing](#testing)
@@ -32,6 +33,7 @@ The **User Management System API** is a RESTful API built with Django and Django
 - **Django REST Framework**: Toolkit for building Web APIs
 - **SQLite**: Default database: SQLite
 - **Pytest**: Testing framework: Unittest
+- **Swaggerdocs**: OpenAPI documentation
 
 ## Getting Started
 
@@ -64,7 +66,7 @@ Ensure you have the following installed on your local machine:
    python manage.py migrate
    ```
 
-### Running the Application
+### Running the Application on Local
 To run the development server, use:
 ```bash
 python manage.py runserver
@@ -78,8 +80,10 @@ To use, check password in supruser.txt file:
 
 ### Documentation
 swaggerdocs file needs authentication (superusr.txt file)
+Access swaggerdocs implementation on `Samilincoln.pythonanywhere.com/swagger/`
 
 ## API Endpoints
+API is live on `Samilincoln.pythonanywhere.com`
 
 ### User Management
 
