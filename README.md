@@ -84,31 +84,28 @@ swaggerdocs file needs authentication (superusr.txt file)
 ### User Management
 
 - **List Users**
-  - `GET /api/users/`
+  - `GET /users/`
   - Retrieves a list of all users.
 
 - **Create User**
-  - `POST /api/users/`
+  - `POST /users/create/`
   - Creates a new user with the required fields (e.g., username, email, password).
 
 - **Retrieve User by ID**
-  - `GET /api/users/<id>/`
+  - `GET /user/<id>/`
   - Retrieves details of a user by their ID.
 
 - **Retrieve User by Username**
-  - `GET /api/users/?username=<username>`
+  - `GET /user/?username=<username>`
   - Retrieves details of a user by their username.
 
 - **Update User**
-  - `PUT /api/users/<id>/`
-  - Updates a user's information (requires full payload).
-
-- **Partial Update User**
-  - `PATCH /api/users/<id>/`
-  - Partially updates a user's information.
+  - `PUT /user/update/<id>/`
+  - pass new name into request body
+  .Updates user name
 
 - **Delete User**
-  - `DELETE /api/users/<id>/`
+  - `DELETE /user/delete/<id>/`
   - Deletes a user by their ID.
 
 ### Example JSON for Creating/Updating User:
